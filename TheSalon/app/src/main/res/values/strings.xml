@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">The Salon</string>
+
+    <string name="slogan">The best way to be okay!</string>
+    <string name="loginInstruction">Para seguir con el servicio de la aplicación es necesario Iniciar sesión!</string>
+    <string name="loginGoogle">Iniciar sesión con google</string>
+
+    <string name="userMainMenu">usuario : </string>
+    <string name="descriptionImage">Logo en blanco y negro de la app</string>
+    <string name="addDateMM">Agregar cita</string>
+    <string name="reportsMM">Ver reportes</string>
+    <string name="catalogueMM">Servicios Ofrecidos</string>
+    <string name="exit">Cerrar sesión</string>
+
+    <string name="titleAddDate">Agendar cita</string>
+    <string name="userAddDate">Usuario</string>
+    <string name="hourAddDate">Elija la hora deseada</string>
+    <string name="serviceSelectionAddDate">Selecciona el servicio a realizar</string>
+    <string name="dateSelectionAddDate">Selecciona la fecha</string>
+    <string name="descriptionAddDate">Observaiones adicionales</string>
+    <string name="opcion1AddDate">Corte de pelo</string>
+    <string name="opcion2AddDate">Tratamientos capilares</string>
+    <string name="opcion3AddDate">Alisados</string>
+    <string name="opcion4AddDate">Recogidos</string>
+    <string name="opcion5AddDate">Mechas</string>
+    <string name="opcion6AddDate">Desrizados</string>
+    <string name="opcion7AddDate">Peinados de fiesta</string>
+    <string name="opcion8AddDate">Baños de color</string>
+    <string name="opcion9AddDate">Moldeados</string>
+    <string name="opcion10AddDate">Maquillaje</string>
+    <string name="apartAddDate">Hacer cita</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="titleServicesOffered">Historial servicios recibidos</string>
+    <string name="back">Regresar</string>
+
+    <string name="titleCatalogue">Catalogo de Servicios</string>
+    <string name="desciption1">Un corte de cabello elegido de manera correcta logrará transformar tu look y tu estilo de una manera sorprendente</string>
+    <string name="description2">Cuidados que se aplican al cabello y cuya finalidad es mantener la salud y buena apariencia del mismo. </string>
+    <string name="description3">Técnica que consiste en eliminar total o parcialmente el ondulado natural que ofrece un cabello rizado o con mucho frizz, para transformarlo en liso.</string>
+    <string name="description4">Peinados perfectos para ir a una festividad con un look sobrio y despampanante</string>
+    <string name="description5">Aplicación de un color a mechones más o menos grandes de cabello con tonalidades distintas para resaltar tu personalidad.</string>
+    <string name="description6">Tratamiento químico que modifica permanentemente la estructura del cabello de rizado a liso</string>
+    <string name="description7">Peinados espectaculares para darle glamour y resplandor a tu outfit.</string>
+    <string name="description8">Baños para cambiar el color de tu pelo a tonalidades fantasias, con ayuda de productos de origen vegetal.</string>
+    <string name="description9">Tecnica para hacer Rizo que tengan un aspecto más natural y chic.</string>
+    <string name="description10">Servicio de maquillaje ofecido por expertos del más altos calibre para cumplir tu look deseado.</string>
+</resources>

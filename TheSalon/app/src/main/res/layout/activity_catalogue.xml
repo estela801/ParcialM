@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".catalogue"
+    android:background="@color/appBase">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_menu_book_24"
+            android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="@font/arvo"
+            android:textColor="@color/titles"
+            android:textSize="35sp"
+            android:text="@string/titleCatalogue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/border_rad">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_corte"
+                    android:text="@string/opcion1AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/desciption1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description2"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_tratamientos_capilares"
+                    android:text="@string/opcion1AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_alisado"
+                    android:text="@string/opcion3AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description3"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description4"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_recogidos"
+                    android:text="@string/opcion4AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_mechas"
+                    android:text="@string/opcion5AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description5"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description6"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_desrizado_1"
+                    android:text="@string/opcion6AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_peinados_fiestas"
+                    android:text="@string/opcion7AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description7"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description8"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_ba_o_color"
+                    android:text="@string/opcion8AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_moldeados"
+                    android:text="@string/opcion9AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description9"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description10"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_maquillaje"
+                    android:text="@string/opcion10AddDate"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/titles"
+                    android:fontFamily="@font/arvo"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:fontFamily="@font/arvo"
+            android:backgroundTint="@color/titles"
+            app:cornerRadius="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="back"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

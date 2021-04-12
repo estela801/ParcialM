@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lastServices"
+    android:background="@color/appBase">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_timeline_24"
+            android:drawableLeft="@drawable/ic_baseline_timeline_24"
+            android:text="@string/titleServicesOffered"
+            android:fontFamily="@font/arvo"
+            android:textSize="35sp"
+            android:textColor="@color/titles"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/border_rad"
+            android:layout_marginTop="30dp">
+
+            <ListView
+                android:id="@+id/ListaCitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:fontFamily="@font/arvo"
+            android:backgroundTint="@color/titles"
+            app:cornerRadius="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="back"/>
+
+    </LinearLayout>
+
+</LinearLayout>

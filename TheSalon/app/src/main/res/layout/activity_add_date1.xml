@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addDate1"
+    android:background="@color/appBase">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_add_24"
+            android:drawableLeft="@drawable/ic_baseline_add_24"
+            android:text="@string/titleAddDate"
+            android:fontFamily="@font/arvo"
+            android:textSize="35sp"
+            android:textColor="@color/titles"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/userAddDate"
+            app:boxStrokeColor="@color/titles"
+            app:hintTextColor="@color/titles"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconDrawable="@drawable/ic_baseline_person_24"
+            android:textColorHint="@color/titles"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/titles"
+            app:boxStrokeWidthFocused="2dp"
+            android:fontFamily="@font/arvo"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/userAddDate"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSelectTime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_baseline_access_time_24"
+                android:text="@string/hourAddDate"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arvo"
+                android:backgroundTint="@color/titles"
+                app:cornerRadius="10dp"
+                android:layout_gravity="top"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/txtvSelectedTime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="2:30"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:fontFamily="@font/arvo"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/serviceSelectionAddDate"
+            android:fontFamily="@font/arvo"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textAllCaps="true"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/border_rad"
+            android:padding="10dp">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion1"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion1AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion2"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion2AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion3"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion3AddDate"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion4"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion4AddDate"
+                        android:textSize="12sp" />
+
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion5"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion5AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion6"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion6AddDate"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion7"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion7AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion8"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion8AddDate"
+                        android:textSize="12sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbtOpcion9"
+                        style="@style/radioButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/arvo"
+                        android:text="@string/opcion9AddDate"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+
+
+                <RadioButton
+                    android:id="@+id/rbtOpcion10"
+                    style="@style/radioButtons"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arvo"
+                    android:text="@string/opcion10AddDate"
+                    android:textSize="12sp" />
+
+            </RadioGroup>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSelectDate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                android:text="@string/dateSelectionAddDate"
+                android:textColor="@color/white"
+                android:fontFamily="@font/arvo"
+                android:backgroundTint="@color/titles"
+                app:cornerRadius="10dp"
+                android:layout_gravity="top"
+                android:gravity="top"/>
+            <TextView
+                android:id="@+id/txtDateSelected"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:fontFamily="@font/arvo"
+                android:text="18/03/2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/descriptionAddDate"
+            app:boxStrokeColor="@color/titles"
+            app:hintTextColor="@color/titles"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:startIconDrawable="@drawable/ic_baseline_edit_24"
+            android:textColorHint="@color/titles"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/titles"
+            app:boxStrokeWidthFocused="2dp"
+            android:fontFamily="@font/arvo"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtObservation"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/apartAddDate"
+            android:textColor="@color/white"
+            android:fontFamily="@font/arvo"
+            android:backgroundTint="@color/titles"
+            app:cornerRadius="10dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:fontFamily="@font/arvo"
+            android:backgroundTint="@color/titles"
+            app:cornerRadius="10dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="back"/>
+
+    </LinearLayout>
+
+</ScrollView>

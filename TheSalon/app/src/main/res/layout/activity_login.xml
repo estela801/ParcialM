@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@color/appBase">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/imgvLogos"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                android:src="@drawable/hairsalonlogo"
+                android:transitionName="logo_transition"
+                />
+
+            <TextView
+                android:id="@+id/txtvAppNames"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/arvo"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:transitionName="appName_transition"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Divider"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginInstruction"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:backgroundTint="#cb2027"
+                android:drawableLeft="@drawable/icon_google"
+                android:fontFamily="@font/arvo"
+
+                android:text="@string/loginGoogle"
+                android:textColor="@color/white"
+                app:cornerRadius="10dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
